@@ -1,0 +1,10 @@
+/*----- MIXINS -----*/
+
+@mixin input-font($family, $size, $color, $spacing, $weight, $style) {
+    font-family: $family, Helvetica, Arial, sans-serif;
+    font-size: $size;
+    color: $color;
+    letter-spacing: $spacing;
+	font-weight: $weight;
+    font-style: $style;
+}

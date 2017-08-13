@@ -1,0 +1,91 @@
+@import 'main-style/mixins.scss';
+@import 'main-style/variables.scss';
+@import 'main-style/fonts.scss';
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.datepicker {
+    width: 400px;
+    background: rgba(1, 1, 1, 0);
+    overflow: hidden;
+    margin-left: 49%;
+    margin-top: 10%;
+    .ui-datepicker {
+        width: 100%;
+        background: rgba(1, 1, 1, 0);
+        .ui-state-default {
+            background: none;
+            color: #999;
+            border: none;
+            box-shadow: none;
+            text-shadow: none;
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+    .ui-widget.ui-widget-content {
+        border: none;
+    }
+    .ui-datepicker-inline {
+        padding: 30px;
+    }
+    .ui-datepicker-header {
+        background: none;
+        border: none;
+        text-align: center;
+        padding-bottom: 1em;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        margin-bottom: 8%;
+        .ui-datepicker-prev,
+        .ui-datepicker-next {
+            display: inline;
+            float: left;
+            cursor: pointer;
+            font-size: 1.4em;
+            padding: 0 10px;
+            margin-top: -5px;
+            color: #CCC;
+        }
+        .ui-datepicker-next {
+            float: right;
+        }
+        .ui-datepicker-title {
+            @include input-font($latoBold, 125%, #fff, 0px, bold, normal);
+        }
+    }
+    .ui-datepicker-calendar {
+        width: 100%;
+        text-align: center;
+        thead {
+            color: #aacbc9;
+        }
+        tr {
+            th,
+            td {
+                padding-bottom: 0;
+            }
+        }
+        a {
+            color: #444;
+            text-decoration: none;
+            display: block;
+            margin: 0 auto;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            cursor: pointer;
+        }
+        .ui-state-highlight {
+            border: 1px solid #fff;
+            border-radius: 22px;
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+}

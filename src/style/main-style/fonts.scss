@@ -1,0 +1,133 @@
+/*----- FONTS -----*/
+
+@font-face {
+    font-family: latoBold;
+    src: url('../fonts/Lato-Bold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Lato-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Lato-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Lato-Bold.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: heuristicaRegular;
+    src: url('../fonts/heuristica-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/heuristica-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/heuristica-regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/heuristica-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/heuristica-regular.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: heuristicaItalic;
+    src: url('../fonts/heuristica-italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/heuristica-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/heuristica-italic.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/heuristica-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/heuristica-italic.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: openSansExtraBold;
+    src: url('../fonts/OpenSans-ExtraBold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/OpenSans-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/OpenSans-ExtraBold.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: openSansItalic;
+    src: url('../fonts/OpenSans-Italic.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/OpenSans-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/OpenSans-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/OpenSans-Italic.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: proximaNovaExtrabold;
+    src: url('../fonts/ProximaNova-Extrabld.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/ProximaNova-Extrabld.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/ProximaNova-Extrabld.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/ProximaNova-Extrabld.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: latoBlack;
+    src: url('../fonts/Lato-Black.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Lato-Black.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Lato-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Lato-Black.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: latoRegular;
+    src: url('../fonts/Lato-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Lato-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Lato-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Lato-Regular.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: sourceSansProBlack;
+    src: url('../fonts/SourceSansPro-Black.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/SourceSansPro-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/SourceSansPro-Black.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/SourceSansPro-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/SourceSansPro-Black.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: sourceSansProLight;
+    src: url('../fonts/SourceSansPro-Light.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/SourceSansPro-Light.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/SourceSansPro-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/SourceSansPro-Light.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*----- End fonts -----*/

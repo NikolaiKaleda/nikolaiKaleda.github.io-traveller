@@ -1,0 +1,92 @@
+@import 'main-style/mixins.scss';
+@import 'main-style/variables.scss';
+@import 'main-style/fonts.scss';
+
+.nav {
+    position: absolute;
+    z-index: 51;
+    width: 2.4%;
+    right: 19.3%;
+    top: 15px;
+    font-family: 'Changa One', helvetica, arial, sans-serif;
+    background: none;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    display: block;
+    text-transform: uppercase;
+    @include input-font($proximaNovaExtrabold , 110%, #fff, 0px, normal, italic );
+    font-size: 1.5em;
+    color: #2b2b32;
+    text-decoration: none;
+    padding: 0.4em;
+}
+
+.nav>ul>li:hover>a {
+    background: #2b2b32;
+    border: 1px solid #fff;
+}
+
+
+/*DROPDOWN*/
+
+.parent {
+    position: relative;
+    a {
+        border: none;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.parent:hover:after {
+    content: ' \25b2';
+    color: #2b2b32;
+    text-shadow: 0px -1px 0px #000000;
+}
+
+.dropdown {
+    position: absolute;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 4px;
+    background: #2b2b32;
+    -webkit-transition: all .24s ease;
+    -moz-transition: all .24s ease;
+    -ms-transition: all .24s ease;
+    -o-transition: all .24s ease;
+    transition: all .24s ease;
+}
+
+.nav li:hover .dropdown {
+    display: block;
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown a {
+    display: block;
+    padding: 0.6em 1em 0.6em 1em;
+    text-transform: uppercase;
+    font-size: 1em;
+    word-spacing: 0.3em;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.dropdown li:hover a {
+    color: #2b2b32;
+    text-decoration: none;
+    background: #fff;
+}
