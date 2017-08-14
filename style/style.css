@@ -119,6 +119,48 @@
 }html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links a .fa
 {
     font-size: 1.6em;
+}html body footer
+{display: inline-block;width: 100%;min-height: 35em;
+
+    background-image: url(../img/homePage/footer/bg.jpg);background-repeat: no-repeat;
+}html body footer .socialBlock
+{
+    margin-top: 13.7em;
+}html body footer .socialTitle
+{
+    font-family: OpenSans-ExtraBold,Helvetica,Arial,sans-serif;font-size: 175%;font-weight: bolder;font-style: normal;margin-bottom: 1.6em;text-align: center;letter-spacing: .08em;color: #fff;
+}html body footer .socialBtn
+{
+    text-align: center;
+}html body footer .socialBtn button
+{color: #fff;
+    border: 1px solid rgba(1,1,1,0);border-radius: 2em;
+}html body footer .socialBtn button .fa
+{
+    display: inline-block;margin-right: 2em;
+}html body footer .socialBtn button p
+{
+    display: inline-block;
+}html body footer .socialBtn .facebookBtn
+{margin-right: 2em;padding: .9em 2em;
+
+    -webkit-transition: background-color .35s ease;transition: background-color .35s ease;background-color: #3671b9;
+}html body footer .socialBtn .facebookBtn:hover
+{
+    background-color: #488fe6;
+}html body footer .socialBtn .twitterBtn
+{padding: .9em 2em;
+
+    -webkit-transition: background-color .35s ease                                                            ;transition: background-color .35s ease;background-color: #55c1e7;
+}html body footer .socialBtn .twitterBtn:hover
+{
+    background-color: #66d7ff;
+}html body footer .copyrightBlock .copyrightText
+{
+    font-family: OpenSans-Italic,Helvetica,Arial,sans-serif;font-size: 78%;font-weight: 400;font-style: italic;margin-top: 10.7%;text-align: center;letter-spacing: .08em;color: #fff;
+}html body footer .copyrightBlock .copyrightText span
+{
+    font-family: OpenSans-ExtraBold,Helvetica,Arial,sans-serif;font-size: 100%;font-weight: bolder;font-style: normal;letter-spacing: .08em;color: #fff;
 }
 @font-face
 {
