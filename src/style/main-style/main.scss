@@ -90,7 +90,7 @@ html {
                     .contentSectionText {
                         @include input-font($sourceSansProLight, 100%, #707070, 0.461px, light, normal);
                         line-height: 128%;
-                        margin: 7.4% 3.9% 3.8% 4.4%;
+                        margin: 7.4% 3.9% 3.5% 4.4%;
                         -webkit-column-width: 240px;
                         -moz-column-width: 240px;
                         -o-column-width: 240px;
@@ -129,6 +129,67 @@ html {
                                     width: 100%;
                                     margin: 7.5% auto 0 auto;
                                     cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .articles {
+                .grid {
+                    .leftArticle {
+                        .effect-zoe {
+                            figcaption {
+                                margin-left: -5px;
+                                text-align: center;
+                                .articleTitle {
+                                    @include input-font($latoBlack, 100%, #fff, 0.6px, bolder, normal);
+                                }
+                                .articleSeparator {
+                                    width: 8.5%;
+                                    height: 0.2em;
+                                    margin-top: 13px;
+                                    background-color: #a0cecb;
+                                    border: none;
+                                }
+                                .articleSubtitle {
+                                    @include input-font($heuristicaItalic, 80%, #fff, 0.6px, normal, italic);
+                                }
+                                .articleDescription {
+                                    @include input-font($heuristicaRegular, 77%, #fff, 0px, normal, regular);
+                                    line-height: 1.6em;
+                                    margin: 2.2em auto;
+                                    width: 40%;
+                                }
+                            }
+                        }
+                    }
+                    .rightArticles {
+                        .effect-zoe {
+                            figcaption {
+                                .articleSeparator {
+                                    width: 7%;
+                                    border-bottom: .3em solid #a0cecb;
+                                    margin: -11% auto 0 auto;
+                                }
+                                .articleTitle {
+                                    @include input-font($latoBlack, 100%, #fff, 0.08em, bold, normal);
+                                    line-height: 1em;
+                                    margin-top: 12.7%;
+                                    margin: 0 auto;
+                                }
+                                .icon-links {
+                                    display: inline-block;
+                                    margin-top: 17.3%;
+                                    margin-left: 2em;
+                                    a {
+                                        @include input-font($latoRegular, 100%, #fff, 0.08em, bold, normal);
+                                        text-transform: capitalize;
+                                        margin-left: 2em;
+                                        .fa {
+                                            font-size: 1.6em;
+                                        }
+                                    }
                                 }
                             }
                         }
