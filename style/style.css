@@ -76,7 +76,7 @@
     position: relative;
 }html body main .contentText .contentColumns .contentSectionText
 {
-    font-family: SourceSansPro-Light,Helvetica,Arial,sans-serif;font-size: 100%;font-weight: light;font-style: normal;line-height: 128%;margin: 7.4% 3.9% 3.8% 4.4%;letter-spacing: .461px;color: #707070;-webkit-column-width: 240px;-o-column-width: 240px;column-width: 240px;-webkit-column-count: 3;-o-column-count: 3;column-count: 3;-webkit-column-gap: 60px;-o-column-gap: 60px;column-gap: 20px;
+    font-family: SourceSansPro-Light,Helvetica,Arial,sans-serif;font-size: 100%;font-weight: light;font-style: normal;line-height: 128%;margin: 7.4% 3.9% 3.5% 4.4%;letter-spacing: .461px;color: #707070;-webkit-column-width: 240px;-o-column-width: 240px;column-width: 240px;-webkit-column-count: 3;-o-column-count: 3;column-count: 3;-webkit-column-gap: 60px;-o-column-gap: 60px;column-gap: 20px;
 }html body main .contentText .backgroundContent .backgroundLetter
 {
     font-family: SourceSansPro-Black,Helvetica,Arial,sans-serif;font-size: 2600%;font-weight: 800;font-style: normal;position: absolute;top: -34%;left: 4.5%;letter-spacing: .461px;opacity: .3;color: #707070;
@@ -89,6 +89,36 @@
 }html body main .gallery .my-gallery figure a .galleryTitleContainer .galleryTitle
 {
     font-family: OpenSans-ExtraBold,Helvetica,Arial,sans-serif;font-size: 200%;font-weight: bolder;font-style: normal;position: absolute;width: 100%;margin: 7.5% auto 0 auto;cursor: pointer;text-align: center;letter-spacing: .461px;color: #fff;
+}html body main .articles .grid .leftArticle .effect-zoe figcaption
+{
+    margin-left: -5px;text-align: center;
+}html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle
+{
+    font-family: Lato-Black,Helvetica,Arial,sans-serif;font-size: 100%;font-weight: bolder;font-style: normal;letter-spacing: .6px;color: #fff;
+}html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSeparator
+{
+    width: 8.5%;height: .2em;margin-top: 13px;border: none;background-color: #a0cecb;
+}html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSubtitle
+{
+    font-family: heuristica-italic,Helvetica,Arial,sans-serif;font-size: 80%;font-weight: 400;font-style: italic;letter-spacing: .6px;color: #fff;
+}html body main .articles .grid .leftArticle .effect-zoe figcaption .articleDescription
+{
+    font-family: heuristica-regular,Helvetica,Arial,sans-serif;font-size: 77%;font-weight: 400;font-style: regular;line-height: 1.6em;width: 40%;margin: 2.2em auto;letter-spacing: 0;color: #fff;
+}html body main .articles .grid .rightArticles .effect-zoe figcaption .articleSeparator
+{
+    width: 7%;margin: -11% auto 0 auto;border-bottom: .3em solid #a0cecb;
+}html body main .articles .grid .rightArticles .effect-zoe figcaption .articleTitle
+{
+    font-family: Lato-Black,Helvetica,Arial,sans-serif;font-size: 100%;font-weight: 700;font-style: normal;line-height: 1em;margin: 0 auto;margin-top: 12.7%;letter-spacing: .08em;color: #fff;
+}html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links
+{
+    display: inline-block;margin-top: 17.3%;margin-left: 2em;
+}html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links a
+{
+    font-family: Lato-Regular,Helvetica,Arial,sans-serif;font-size: 100%;font-weight: 700;font-style: normal;margin-left: 2em;letter-spacing: .08em;text-transform: capitalize;color: #fff;
+}html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links a .fa
+{
+    font-size: 1.6em;
 }
 @font-face
 {
@@ -180,7 +210,7 @@
     width: 100%;
 }.my-gallery img
 {
-    width: 100%;height: auto;
+    display: block;width: 100%;height: auto;
 }.my-gallery figure
 {
     display: block;float: left;width: 100%;margin: 0 5px 5px 0;
