@@ -197,5 +197,68 @@ html {
                 }
             }
         }
+        footer {
+            background-image: url(../img/homePage/footer/bg.jpg);
+            background-repeat: no-repeat;
+            min-height: 35em;
+            display: inline-block;
+            width: 100%;
+            .socialBlock {
+                margin-top: 13.7em;
+            }
+            .socialTitle {
+                @include input-font($openSansExtraBold, 175%, #fff, 0.08em, bolder, normal);
+                text-align: center;
+                margin-bottom: 1.6em;
+            }
+            .socialBtn {
+                text-align: center;
+                button {
+                    border: 1px solid rgba(1, 1, 1, 0);
+                    border-radius: 2em;
+                    color: #fff;
+                    .fa {
+                        display: inline-block;
+                        margin-right: 2em;
+                    }
+                    p {
+                        display: inline-block;
+                    }
+                }
+                .facebookBtn {
+                    -webkit-transition: background-color 0.35s ease;
+                    -moz-transition: background-color 0.35s ease;
+                    -o-transition: background-color 0.35s ease;
+                    transition: background-color 0.35s ease;
+                    background-color: #3671b9;
+                    margin-right: 2em;
+                    padding: 0.9em 2em;
+                }
+                .facebookBtn:hover {
+                    background-color: #488fe6;
+                }
+                .twitterBtn {
+                    -webkit-transition: background-color 0.35s ease;
+                    -moz-transition: background-color 0.35s ease;
+                    -o-transition: background-color 0.35s ease;
+                    transition: background-color 0.35s ease;
+                    background-color: #55c1e7;
+                    padding: 0.9em 2em;
+                }
+                .twitterBtn:hover {
+                    background-color: #66d7ff;
+                }
+            }
+            .copyrightBlock {
+                .copyrightText {
+                    @include input-font($openSansItalic, 78%, #fff, 0.08em, normal, italic);
+                    margin-top: 10.7%;
+                    text-align: center;
+                    span {
+                        @include input-font($openSansExtraBold, 100%, #fff, 0.08em, bolder, normal);
+                    }
+                }
+            }
+        }
     }
 }
