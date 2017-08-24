@@ -1,0 +1,714 @@
+@import 'main-style/mixins.scss';
+@import 'main-style/variables.scss';
+//
+// big-desktop-up
+@media only screen and (min-width: 1800px) {
+    html {
+        body {
+            header {
+                .homeLinkContainer {
+                    .homeLink {
+                        margin-top: 1.3%;
+                        font-size: 250%;
+                    }
+                }
+                .nav {
+                    margin-top: 1%;
+                    right: 19%;
+                }
+            }
+            //
+            main {
+                //
+                .topSection {
+                    .pageTitleCont {
+                        top: 1%;
+                        .pageTitle {
+                            font-size: 430%;
+                        }
+                        .pageTitleDescription {
+                            font-size: 156%;
+                        }
+                    }
+                }
+                //
+                #wrapper {
+                    .slider-wrapper {
+                        #slider {
+                            .nivo-directionNav {
+                                .nivo-prevNav,
+                                .nivo-nextNav {
+                                    width: 53px;
+                                    height: 53px;
+                                }
+                                .nivo-prevNav {
+                                    left: 59px;
+                                }
+                                .nivo-nextNav {
+                                    right: 71px;
+                                }
+                            }
+                        }
+                    }
+                }
+                //
+                .calendarSection {
+                    .cityName {
+                        padding-top: 8.3%;
+                        font-size: 272%;
+                    }
+                    .monthCalendar {
+                        padding-bottom: 1.6%;
+                        .datepicker {
+                            width: 34em;
+                            .ui-datepicker-inline {
+                                .ui-datepicker-header {
+                                    .ui-datepicker-title {
+                                        font-size: 190%;
+                                    }
+                                }
+                                .ui-datepicker-calendar {
+                                    font-size: 1.3em;
+                                    tbody {
+                                        tr {
+                                            td {
+                                                font-size: 125%;
+                                                padding-bottom: 4%;
+                                                a.ui-state-highlight {
+                                                    height: 2em;
+                                                    width: 2em;
+                                                    border-radius: 1em;
+                                                }
+                                            }
+                                        }
+                                        tr:first-child td {
+                                            padding-top: 1.2em;
+                                        }
+                                    }
+                                }
+                            }
+                            .datepicker {
+                                .ui-datepicker-header {
+                                    margin-bottom: 10%;
+                                    .ui-datepicker-prev,
+                                    .ui-datepicker-next {
+                                        padding: 0 25px;
+                                        margin-top: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .monthDescription {
+                        .monthName {
+                            font-size: 190%;
+                        }
+                        .monthSubName {
+                            font-size: 155%;
+                        }
+                        .monthText {
+                            font-size: 160%;
+                            margin-top: 1.3%;
+                        }
+                        .moreInfoCalendar {
+                            font-size: 135%;
+                            margin-top: 5.8%;
+                            padding: .9% 3%
+                        }
+                    }
+                }
+                .contentText {
+                    .backgroundContent {
+                        .backgroundLetter {
+                            font-size: 3675%;
+                        }
+                    }
+                    .contentColumns {
+                        .contentSectionText {
+                            font-size: 138%;
+                            margin-bottom: 4.5%;
+                        }
+                    }
+                }
+                //
+                .gallery {
+                    .my-gallery {
+                        figure {
+                            a {
+                                .galleryTitleContainer {
+                                    .galleryTitle {
+                                        font-size: 285%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .pswp {
+                        .pswp__scroll-wrap {
+                            .pswp__ui {
+                                .pswp__top-bar {
+                                    .pswp__counter {
+                                        font-size: 23px;
+                                    }
+                                    .pswp__button {
+                                        width: 66px;
+                                        height: 66px;
+                                        background-size: 396px 132px;
+                                    }
+                                    .pswp__button--close {
+                                        background-position: 0 -66px;
+                                    }
+                                    .pswp__button--share {
+                                        background-position: -66px -66px;
+                                    }
+                                    .pswp__button--zoom {
+                                        display: block;
+                                        background-position: -122px 0;
+                                    }
+                                }
+                            }
+                            .pswp__caption {
+                                .pswp__caption__center {
+                                    font-size: 2em;
+                                }
+                            }
+                        }
+                    }
+                }
+                //
+                .articles {
+                    .grid {
+                        .leftArticle {
+                            .effect-zoe {
+                                figcaption {
+                                    top: 3em;
+                                    .articleTitle {
+                                        font-size: 145%;
+                                    }
+                                    .articleSeparator {
+                                        margin-top: 20px;
+                                    }
+                                    .articleSubtitle {
+                                        font-size: 115%;
+                                    }
+                                    .articleDescription {
+                                        font-size: 114%;
+                                    }
+                                }
+                            }
+                        }
+                        .rightArticles {
+                            .effect-zoe {
+                                figcaption {
+                                    .articleSeparator {
+                                        margin-top: -11%;
+                                    }
+                                    .articleTitle {
+                                        font-size: 145%;
+                                        margin-top: 15%;
+                                    }
+                                    .icon-links {
+                                        font-size: 93%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            //
+            footer {
+                .socialBlock {
+                    margin-top: 19em;
+                    .socialTitle {
+                        font-size: 250%;
+                        margin-bottom: 1.6em;
+                    }
+                    .socialBtn {
+                        .facebookBtn,
+                        .twitterBtn {
+                            padding: 1em 3em;
+                            font-size: 1.3em;
+                            p {}
+                        }
+                    }
+                }
+                .copyrightBlock {
+                    .copyrightText {
+                        font-size: 110%;
+                        margin-bottom: 2%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//
+// desktop-up
+@media only screen and (min-width: 1200px) and (max-width: 1799px) {
+    html {
+        body {
+            main {
+                .calendarSection {
+                    .monthCalendar {
+                        .datepicker {
+                            .ui-datepicker-calendar a {
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//
+// tablet-landscape-up
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+    html {
+        body {
+            header {
+                .nav {
+                    width: 3.4%;
+                }
+            }
+            main {
+                .calendarSection {
+                    padding-bottom: 7%;
+                    .monthDescription {
+                        .monthText {
+                            margin-top: 3.5%;
+                        }
+                        .moreInfoCalendar {
+                            padding: 1.8% 8%;
+                        }
+                    }
+                }
+                .gallery {
+                    .my-gallery {
+                        height: 15em;
+                        figure {
+                            height: 100%;
+                            a {
+                                img {
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    html {
+        body {
+            main {
+                .articles {
+                    .grid {
+                        .leftArticle,
+                        .rightArticles {
+                            .effect-zoe {
+                                img {
+                                    min-height: 300px;
+                                }
+                                figcaption {
+                                    .description,
+                                    .icon-links {
+                                        opacity: 1;
+                                        br {
+                                            display: none;
+                                        }
+                                        a {
+                                            transform: none;
+                                        }
+                                    }
+                                    .articleDescription {
+                                        width: 95%;
+                                    }
+                                    .articleSubtitle {
+                                        margin-top: 7%;
+                                    }
+                                }
+                            }
+                        }
+                        .rightArticles {
+                            .effect-zoe {
+                                figcaption {
+                                    .articleTitle {
+                                        margin-top: 0;
+                                    }
+                                    .articleSeparator {
+                                        margin-top: 4%;
+                                    }
+                                    .icon-links {
+                                        margin-left: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//
+// tablet-portrait-up
+@media only screen and (max-width: 899px) {
+    html {
+        body {
+            header {
+                .homeLinkContainer {
+                    .homeLink {
+                        font-size: 300%;
+                        margin-left: 10%;
+                    }
+                }
+                .nav {
+                    width: 7%;
+                    top: 20px;
+                    right: 10%;
+                    z-index: 101;
+                    ul {
+                        .parent {
+                            .dropdown {
+                                li {
+                                    a {
+                                        font-size: 1.5em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            main {
+                .topSection {
+                    .pageTitleCont {
+                        margin-top: 20%;
+                        .pageTitle {
+                            font-size: 350%;
+                        }
+                        .pageTitleDescription {
+                            font-size: 160%;
+                            margin-top: 5%;
+                        }
+                    }
+                    #wrapper {
+                        .slider-wrapper {
+                            .nivoSlider {
+                                .nivo-main-image {
+                                    min-height: 400px;
+                                }
+                                .nivo-directionNav {
+                                    .nivo-prevNav,
+                                    .nivo-nextNav {
+                                        width: 44px;
+                                        height: 44px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .calendarSection {
+                    padding-bottom: 20%;
+                    background-size: cover;
+                    .cityName {
+                        font-size: 260%;
+                    }
+                    .monthDescription {
+                        display: block;
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 3.5%;
+                        margin-left: 0;
+                        .monthName {
+                            font-size: 190%;
+                        }
+                        .monthSubName {
+                            font-size: 150%;
+                        }
+                        .monthText {
+                            width: 80%;
+                            font-size: 140%;
+                            margin: 0 auto;
+                        }
+                        .moreInfoCalendar {
+                            font-size: 170%;
+                            position: absolute;
+                            bottom: 10%;
+                            width: 226px;
+                            margin-left: -113px;
+                        }
+                    }
+                    .monthCalendar {
+                        width: 100%;
+                        .datepicker {
+                            width: 70%;
+                            display: block;
+                            position: inherit;
+                            width: 100%;
+                            margin: 0 auto;
+                            .ui-datepicker {
+                                .ui-datepicker-header {
+                                    .ui-corner-all {}
+                                    .ui-datepicker-title {
+                                        font-size: 170%;
+                                    }
+                                }
+                                .ui-datepicker-calendar {
+                                    thead {
+                                        tr {
+                                            th {
+                                                font-size: 100%;
+                                            }
+                                        }
+                                    }
+                                    tbody {
+                                        tr {
+                                            td {
+                                                a {
+                                                    font-size: 140%;
+                                                }
+                                                a,
+                                                span {
+                                                    padding: 0.1em;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .gallery {
+                    .my-gallery {
+                        height: 20em;
+                        figure {
+                            height: 100%;
+                            a {
+                                img {
+                                    height: 100%;
+                                }
+                                .galleryTitleContainer {
+                                    .galleryTitle {
+                                        font-size: 220%;
+                                        margin-top: 15%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .articles {
+                    .grid {
+                        .leftArticle,
+                        .rightArticles {
+                            .effect-zoe {
+                                figcaption {
+                                    .articleTitle {
+                                        font-size: 130%;
+                                    }
+                                    .articleSubtitle {
+                                        font-size: 85%;
+                                    }
+                                    .articleDescription {
+                                        font-size: 80%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            footer {
+                min-height: 15em;
+                .socialBlock {
+                    margin-top: 6.7em;
+                }
+            }
+        }
+    }
+}
+
+//
+// phone-only
+@media only screen and (max-width: 599px) {
+    html {
+        body {
+            header {
+                .homeLinkContainer {
+                    .homeLink {
+                        font-size: 200%;
+                    }
+                }
+                .nav {
+                    ul {
+                        .parent {
+                            .dropdown {
+                                li {
+                                    a {
+                                        font-size: 0.9em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            main {
+                .topSection {
+                    .pageTitleCont {
+                        .pageTitle {
+                            font-size: 300%;
+                        }
+                        .pageTitleDescription {
+                            font-size: 130%;
+                            margin-top: 15%;
+                        }
+                    }
+                    #wrapper {
+                        .slider-wrapper {
+                            .nivoSlider {
+                                .nivo-directionNav .nivo-nextNav,
+                                .nivo-directionNav .nivo-prevNav {
+                                    width: 36px;
+                                    height: 36px;
+                                }
+                                .nivo-main-image {
+                                    min-height: 360px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .calendarSection {
+                    .cityName {
+                        font-size: 230%;
+                        padding-top: 70px;
+                    }
+                    .monthDescription {
+                        .monthName {
+                            font-size: 155%;
+                        }
+                        .monthSubName {
+                            font-size: 125%;
+                        }
+                        .monthText {
+                            font-size: 110%;
+                            width: 90%;
+                            .moreInfoCalendar {
+                                font-size: 130%;
+                                width: 150px;
+                                margin-left: -75px;
+                                bottom: 8%;
+                            }
+                        }
+                    }
+                    .monthCalendar {
+                        .datepicker {
+                            .ui-datepicker-inline {
+                                padding: 20px;
+                                margin-top: 5%;
+                                .ui-datepicker-header {
+                                    padding: 0;
+                                    margin-bottom: 3%;
+                                    .ui-datepicker-title {
+                                        font-size: 140%;
+                                    }
+                                }
+                                .ui-datepicker-calendar {
+                                    font-size: 70%;
+                                    thead {
+                                        tr {
+                                            th {
+                                                font-size: 130%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .contentText {
+                    .backgroundContent {
+                        .backgroundLetter {
+                            font-size: 2220%;
+                            top: 0%;
+                        }
+                    }
+                    .contentColumns {
+                        .contentSectionText {
+                            margin-top: 0;
+                            font-size: 90%;
+                            text-align: justify;
+                        }
+                    }
+                }
+                .gallery {
+                    .my-gallery {
+                        figure {
+                            a {
+                                .galleryTitleContainer {
+                                    .galleryTitle {
+                                        font-size: 200%;
+                                        margin-top: 24%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .articles {
+                    .grid {
+                        .leftArticle, .rightArticle {
+                            .effect-zoe {
+                                figcaption {
+                                    .articleTitle {
+                                        font-size: 120%;
+                                        .articleSubtitle {
+                                            font-size: 80%;
+                                        }
+                                        .articleDescription {
+                                            font-size: 75%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            footer {
+                 min-height: 13em;
+                .socialBlock {
+                    margin-top: 4.7em;
+                    .socialTitle {
+                        font-size: 165%;
+                    }
+                    .socialBtn {
+                        .facebookBtn, .twitterBtn {
+                            p {
+                                font-size: 95%;
+                            }
+                        }
+                    }
+                }
+                .copyrightBlock {
+                    .copyrightText {
+                        font-size: 75%;
+                    }
+                }
+            }
+        }
+    }
+}

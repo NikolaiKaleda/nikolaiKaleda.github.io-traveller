@@ -8,6 +8,9 @@
     width: 400px;
     background: rgba(1, 1, 1, 0);
     overflow: hidden;
+    position: absolute;
+    right: 3%;
+    top: 10%;
 }
 
 .datepicker .ui-datepicker-inline {
@@ -52,7 +55,7 @@
     margin: 0 auto;
     width: 35px;
     height: 35px;
-    line-height: 35px;
+    line-height: 30px;
     border-radius: 50%;
     border: 1px solid transparent;
     cursor: pointer;

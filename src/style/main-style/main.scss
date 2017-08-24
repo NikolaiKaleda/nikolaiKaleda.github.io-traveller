@@ -1,8 +1,11 @@
+@import '../media-queries.scss';
 @import 'mixins.scss';
 @import 'variables.scss';
 @import 'fonts.scss';
+//
 html {
     body {
+        /*HEADER*/
         header {
             .homeLinkContainer {
                 #homePageAnchor {
@@ -19,6 +22,7 @@ html {
             }
         }
         main {
+            /*TOP SLIDER*/
             .topSection {
                 .pageTitleCont {
                     position: absolute;
@@ -30,20 +34,22 @@ html {
                     .pageTitle {
                         @include input-font($openSansExtraBold, 300%, #fff, 0px, bolder, normal);
                     }
-                    .pageTitleDiscription {
+                    .pageTitleDescription {
                         @include input-font($openSansItalic, 110%, #fff, 0px, normal, italic);
                         margin-top: 5px;
                     }
                 }
             }
+            /*CALENDAR*/
             .calendarSection {
                 background: url(../img/homePage/calendarSection/bg.jpg);
                 background-size: 100% 100%;
                 min-height: 575px;
+                position: relative;
                 .cityName {
                     @include input-font($openSansExtraBold, 193%, #fff, 0px, bolder, normal);
                     padding-top: 109px;
-                    margin-left: 585px;
+                    text-align: center;
                 }
                 .monthDescription {
                     display: inline-block;
@@ -84,6 +90,7 @@ html {
                     display: inline-block;
                 }
             }
+            /*TEXT BLOCK*/
             .contentText {
                 position: relative;
                 .contentColumns {
@@ -109,15 +116,22 @@ html {
                     .backgroundLetter {
                         @include input-font($sourceSansProBlack, 2600%, #707070, 0.461px, 800, normal);
                         position: absolute;
+                        overflow: hidden;
+                        line-height: 1;
                         opacity: 0.3;
-                        top: -34%;
+                        top: -10%;
                         left: 4.5%;
                     }
                 }
             }
+            /*IMAGE GALLERY*/
             .gallery {
                 position: relative;
+                height: 100%;
+                overflow: hidden;
                 .my-gallery {
+                    overflow: hidden;
+                    float: none;
                     figure {
                         margin: 0;
                         a {
@@ -135,6 +149,7 @@ html {
                     }
                 }
             }
+            /*ARTICLES*/
             .articles {
                 .grid {
                     .leftArticle {
@@ -197,6 +212,7 @@ html {
                 }
             }
         }
+        /*FOOTER*/
         footer {
             background-image: url(../img/homePage/footer/bg.jpg);
             background-repeat: no-repeat;
