@@ -55,7 +55,7 @@ $(window).load(function() {
         controlNavThumbsReplace: '_thumb.jpg', // ...this in thumb Image src
         keyboardNav: true, // Использовать стрелки Влево и Вправо
         pauseOnHover: true, // Остановка навигации при наведении
-        manualAdvance: true, // Force manual transitions
+        manualAdvance: false, // Force manual transitions
         captionOpacity: 0.8, // Прозрачность описания
         prevText: 'Назад', // Назад directionNav текст
         nextText: 'Вперед', // Вперед directionNav текст
