@@ -323,15 +323,14 @@
         font-size: 300%;
     }html body main .topSection .pageTitleCont .pageTitleDescription
     {
-        font-size: 130%;margin-top: 25%;
+        font-size: 130%;margin-top: 15%;
     }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-nextNav,
     html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-prevNav
     {
         width: 36px;height: 36px;
-    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-main-image,
-    html body main .topSection #wrapper .slider-wrapper .nivoSlider img
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-main-image
     {
-        min-height: 430px;
+        min-height: 360px;
     }html body main .calendarSection .cityName
     {
         font-size: 230%;padding-top: 70px;
@@ -994,15 +993,14 @@
         font-size: 300%;
     }html body main .topSection .pageTitleCont .pageTitleDescription
     {
-        font-size: 130%;margin-top: 25%;
+        font-size: 130%;margin-top: 15%;
     }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-nextNav,
     html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-prevNav
     {
         width: 36px;height: 36px;
-    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-main-image,
-    html body main .topSection #wrapper .slider-wrapper .nivoSlider img
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-main-image
     {
-        min-height: 430px;
+        min-height: 360px;
     }html body main .calendarSection .cityName
     {
         font-size: 230%;padding-top: 70px;
