@@ -1,4 +1,406 @@
-@font-face
+@media only screen and (min-width:1800px)
+{
+    html body header .homeLinkContainer .homeLink
+    {font-size: 250%;
+
+        margin-top: 1.3%;
+    }html body header .nav
+    {right: 19%;
+
+        margin-top: 1%;
+    }html body main .topSection .pageTitleCont
+    {
+        top: 1%;
+    }html body main .topSection .pageTitleCont .pageTitle
+    {
+        font-size: 430%;
+    }html body main .topSection .pageTitleCont .pageTitleDescription
+    {
+        font-size: 156%;
+    }html body main #wrapper .slider-wrapper #slider .nivo-directionNav .nivo-nextNav,
+    html body main #wrapper .slider-wrapper #slider .nivo-directionNav .nivo-prevNav
+    {
+        width: 53px;height: 53px;
+    }html body main #wrapper .slider-wrapper #slider .nivo-directionNav .nivo-prevNav
+    {
+        left: 59px;
+    }html body main #wrapper .slider-wrapper #slider .nivo-directionNav .nivo-nextNav
+    {
+        right: 71px;
+    }html body main .calendarSection .cityName
+    {font-size: 272%;
+
+        padding-top: 8.3%;
+    }html body main .calendarSection .monthCalendar
+    {
+        padding-bottom: 1.6%;
+    }html body main .calendarSection .monthCalendar .datepicker
+    {
+        width: 34em;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-header .ui-datepicker-title
+    {
+        font-size: 190%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar
+    {
+        font-size: 1.3em;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar tbody tr td
+    {
+        font-size: 125%;padding-bottom: 4%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar tbody tr td a.ui-state-highlight
+    {width: 2em;
+        height: 2em;border-radius: 1em;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar tbody tr:first-child td
+    {
+        padding-top: 1.2em;
+    }html body main .calendarSection .monthCalendar .datepicker .datepicker .ui-datepicker-header
+    {
+        margin-bottom: 10%;
+    }html body main .calendarSection .monthCalendar .datepicker .datepicker .ui-datepicker-header .ui-datepicker-next,
+    html body main .calendarSection .monthCalendar .datepicker .datepicker .ui-datepicker-header .ui-datepicker-prev
+    {margin-top: 0;
+        padding: 0 25px;
+    }html body main .calendarSection .monthDescription .monthName
+    {
+        font-size: 190%;
+    }html body main .calendarSection .monthDescription .monthSubName
+    {
+        font-size: 155%;
+    }html body main .calendarSection .monthDescription .monthText
+    {
+        font-size: 160%;margin-top: 1.3%;
+    }html body main .calendarSection .monthDescription .moreInfoCalendar
+    {
+        font-size: 135%;margin-top: 5.8%;padding: .9% 3%;
+    }html body main .contentText .backgroundContent .backgroundLetter
+    {
+        font-size: 3675%;
+    }html body main .contentText .contentColumns .contentSectionText
+    {
+        font-size: 138%;margin-bottom: 4.5%;
+    }html body main .gallery .my-gallery figure a .galleryTitleContainer .galleryTitle
+    {
+        font-size: 285%;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__counter
+    {
+        font-size: 23px;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__button
+    {
+        width: 66px;height: 66px;background-size: 396px 132px;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__button--close
+    {
+        background-position: 0 -66px;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__button--share
+    {
+        background-position: -66px -66px;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__button--zoom
+    {
+        display: block;background-position: -122px 0;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__caption .pswp__caption__center
+    {
+        font-size: 2em;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption
+    {
+        top: 3em;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle
+    {
+        font-size: 145%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSeparator
+    {
+        margin-top: 20px;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSubtitle
+    {
+        font-size: 115%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleDescription
+    {
+        font-size: 114%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .articleSeparator
+    {
+        margin-top: -11%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .articleTitle
+    {
+        font-size: 145%;margin-top: 15%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links
+    {
+        font-size: 93%;
+    }html body footer .socialBlock
+    {
+        margin-top: 19em;
+    }html body footer .socialBlock .socialTitle
+    {
+        font-size: 250%;margin-bottom: 1.6em;
+    }html body footer .socialBlock .socialBtn .facebookBtn,
+    html body footer .socialBlock .socialBtn .twitterBtn
+    {font-size: 1.3em;
+
+        padding: 1em 3em;
+    }html body footer .copyrightBlock .copyrightText
+    {
+        font-size: 110%;margin-bottom: 2%;
+    }
+}@media only screen and (min-width:1200px) and (max-width:1799px)
+{
+    html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-calendar a
+    {
+        line-height: 30px;
+    }
+}@media only screen and (min-width:900px) and (max-width:1199px)
+{
+    html body header .nav
+    {
+        width: 3.4%;
+    }html body main .calendarSection
+    {
+        padding-bottom: 7%;
+    }html body main .calendarSection .monthDescription .monthText
+    {
+        margin-top: 3.5%;
+    }html body main .calendarSection .monthDescription .moreInfoCalendar
+    {
+        padding: 1.8% 8%;
+    }html body main .gallery .my-gallery
+    {
+        height: 15em;
+    }html body main .gallery .my-gallery figure
+    {
+        height: 100%;
+    }html body main .gallery .my-gallery figure a img
+    {
+        height: 100%;
+    }
+}@media only screen and (max-width:1199px)
+{
+    html body main .articles .grid .leftArticle .effect-zoe img,
+    html body main .articles .grid .rightArticles .effect-zoe img
+    {
+        min-height: 300px;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .description,
+    html body main .articles .grid .leftArticle .effect-zoe figcaption .icon-links,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .description,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links
+    {
+        opacity: 1;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .description br,
+    html body main .articles .grid .leftArticle .effect-zoe figcaption .icon-links br,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .description br,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links br
+    {
+        display: none;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .description a,
+    html body main .articles .grid .leftArticle .effect-zoe figcaption .icon-links a,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .description a,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links a
+    {
+        -webkit-transform: none                                ;transform: none;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleDescription,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleDescription
+    {
+        width: 95%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSubtitle,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleSubtitle
+    {
+        margin-top: 7%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .articleTitle
+    {
+        margin-top: 0;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .articleSeparator
+    {
+        margin-top: 4%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links
+    {
+        margin-left: 0;
+    }
+}@media only screen and (max-width:899px)
+{
+    html body header .homeLinkContainer .homeLink
+    {
+        font-size: 300%;margin-left: 10%;
+    }html body header .nav
+    {z-index: 101;top: 20px;right: 10%;
+
+        width: 7%;
+    }html body header .nav ul .parent .dropdown li a
+    {
+        font-size: 1.5em;
+    }html body main .topSection .pageTitleCont
+    {
+        margin-top: 20%;
+    }html body main .topSection .pageTitleCont .pageTitle
+    {
+        font-size: 350%;
+    }html body main .topSection .pageTitleCont .pageTitleDescription
+    {
+        font-size: 160%;margin-top: 5%;
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-main-image
+    {
+        min-height: 400px;
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-nextNav,
+    html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-prevNav
+    {
+        width: 44px;height: 44px;
+    }html body main .calendarSection
+    {
+        padding-bottom: 20%;background-size: cover;
+    }html body main .calendarSection .cityName
+    {
+        font-size: 260%;
+    }html body main .calendarSection .monthDescription
+    {
+        display: block;width: 100%;margin-top: 3.5%;margin-left: 0;text-align: center;
+    }html body main .calendarSection .monthDescription .monthName
+    {
+        font-size: 190%;
+    }html body main .calendarSection .monthDescription .monthSubName
+    {
+        font-size: 150%;
+    }html body main .calendarSection .monthDescription .monthText
+    {font-size: 140%;
+
+        width: 80%;margin: 0 auto;
+    }html body main .calendarSection .monthDescription .moreInfoCalendar
+    {
+        font-size: 170%;position: absolute;bottom: 10%;width: 226px;margin-left: -113px;
+    }html body main .calendarSection .monthCalendar
+    {
+        width: 100%;
+    }html body main .calendarSection .monthCalendar .datepicker
+    {position: inherit;display: block;
+
+        width: 70%;width: 100%;margin: 0 auto;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-title
+    {
+        font-size: 170%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-calendar thead tr th
+    {
+        font-size: 100%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-calendar tbody tr td a
+    {
+        font-size: 140%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-calendar tbody tr td a,
+    html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-calendar tbody tr td span
+    {
+        padding: .1em;
+    }html body main .gallery .my-gallery
+    {
+        height: 20em;
+    }html body main .gallery .my-gallery figure
+    {
+        height: 100%;
+    }html body main .gallery .my-gallery figure a img
+    {
+        height: 100%;
+    }html body main .gallery .my-gallery figure a .galleryTitleContainer .galleryTitle
+    {
+        font-size: 220%;margin-top: 15%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleTitle
+    {
+        font-size: 130%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSubtitle,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleSubtitle
+    {
+        font-size: 85%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleDescription,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleDescription
+    {
+        font-size: 80%;
+    }html body footer
+    {
+        min-height: 15em;
+    }html body footer .socialBlock
+    {
+        margin-top: 6.7em;
+    }
+}@media only screen and (max-width:599px)
+{
+    html body header .homeLinkContainer .homeLink
+    {
+        font-size: 200%;
+    }html body header .nav ul .parent .dropdown li a
+    {
+        font-size: .9em;
+    }html body main .topSection .pageTitleCont .pageTitle
+    {
+        font-size: 300%;
+    }html body main .topSection .pageTitleCont .pageTitleDescription
+    {
+        font-size: 130%;margin-top: 15%;
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-nextNav,
+    html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-prevNav
+    {
+        width: 36px;height: 36px;
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-main-image
+    {
+        min-height: 360px;
+    }html body main .calendarSection .cityName
+    {
+        font-size: 230%;padding-top: 70px;
+    }html body main .calendarSection .monthDescription .monthName
+    {
+        font-size: 155%;
+    }html body main .calendarSection .monthDescription .monthSubName
+    {
+        font-size: 125%;
+    }html body main .calendarSection .monthDescription .monthText
+    {
+        font-size: 110%;width: 90%;
+    }html body main .calendarSection .monthDescription .monthText .moreInfoCalendar
+    {
+        font-size: 130%;bottom: 8%;width: 150px;margin-left: -75px;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline
+    {margin-top: 5%;
+        padding: 20px;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-header
+    {margin-bottom: 3%;
+        padding: 0;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-header .ui-datepicker-title
+    {
+        font-size: 140%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar
+    {
+        font-size: 70%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar thead tr th
+    {
+        font-size: 130%;
+    }html body main .contentText .backgroundContent .backgroundLetter
+    {
+        font-size: 2220%;top: 0;
+    }html body main .contentText .contentColumns .contentSectionText
+    {font-size: 90%;
+
+        margin-top: 0;text-align: justify;
+    }html body main .gallery .my-gallery figure a .galleryTitleContainer .galleryTitle
+    {
+        font-size: 200%;margin-top: 24%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle,
+    html body main .articles .grid .rightArticle .effect-zoe figcaption .articleTitle
+    {
+        font-size: 120%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle .articleSubtitle,
+    html body main .articles .grid .rightArticle .effect-zoe figcaption .articleTitle .articleSubtitle
+    {
+        font-size: 80%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle .articleDescription,
+    html body main .articles .grid .rightArticle .effect-zoe figcaption .articleTitle .articleDescription
+    {
+        font-size: 75%;
+    }html body footer
+    {
+        min-height: 13em;
+    }html body footer .socialBlock
+    {
+        margin-top: 4.7em;
+    }html body footer .socialBlock .socialTitle
+    {
+        font-size: 165%;
+    }html body footer .socialBlock .socialBtn .facebookBtn p,
+    html body footer .socialBlock .socialBtn .twitterBtn p
+    {
+        font-size: 95%;
+    }html body footer .copyrightBlock .copyrightText
+    {
+        font-size: 75%;
+    }
+}@font-face
 {
     font-family: latoBold;font-weight: 400;font-style: normal;src: url(../fonts/Lato-Bold.eot);src: url(../fonts/Lato-Bold.eot?#iefix) format('embedded-opentype'),url(../fonts/Lato-Bold.woff) format('woff'),url(../fonts/Lato-Bold.ttf) format('truetype'),url(../fonts/Lato-Bold.svg#svgFontName) format('svg');
 }@font-face
@@ -40,16 +442,16 @@
 }html body main .topSection .pageTitleCont .pageTitle
 {
     font-family: OpenSans-ExtraBold,Helvetica,Arial,sans-serif;font-size: 300%;font-weight: bolder;font-style: normal;letter-spacing: 0;color: #fff;
-}html body main .topSection .pageTitleCont .pageTitleDiscription
+}html body main .topSection .pageTitleCont .pageTitleDescription
 {
     font-family: OpenSans-Italic,Helvetica,Arial,sans-serif;font-size: 110%;font-weight: 400;font-style: italic;margin-top: 5px;letter-spacing: 0;color: #fff;
 }html body main .calendarSection
-{min-height: 575px;
+{position: relative;min-height: 575px;
 
     background: url(../img/homePage/calendarSection/bg.jpg);background-size: 100% 100%;
 }html body main .calendarSection .cityName
 {
-    font-family: OpenSans-ExtraBold,Helvetica,Arial,sans-serif;font-size: 193%;font-weight: bolder;font-style: normal;margin-left: 585px;padding-top: 109px;letter-spacing: 0;color: #fff;
+    font-family: OpenSans-ExtraBold,Helvetica,Arial,sans-serif;font-size: 193%;font-weight: bolder;font-style: normal;padding-top: 109px;text-align: center;letter-spacing: 0;color: #fff;
 }html body main .calendarSection .monthDescription
 {
     display: inline-block;width: 50%;margin-top: 8.5%;margin-left: 4%;vertical-align: top;
@@ -79,10 +481,13 @@
     font-family: SourceSansPro-Light,Helvetica,Arial,sans-serif;font-size: 100%;font-weight: light;font-style: normal;line-height: 128%;margin: 7.4% 3.9% 3.5% 4.4%;letter-spacing: .461px;color: #707070;-webkit-column-width: 240px;-o-column-width: 240px;column-width: 240px;-webkit-column-count: 3;-o-column-count: 3;column-count: 3;-webkit-column-gap: 60px;-o-column-gap: 60px;column-gap: 20px;
 }html body main .contentText .backgroundContent .backgroundLetter
 {
-    font-family: SourceSansPro-Black,Helvetica,Arial,sans-serif;font-size: 2600%;font-weight: 800;font-style: normal;position: absolute;top: -34%;left: 4.5%;letter-spacing: .461px;opacity: .3;color: #707070;
+    font-family: SourceSansPro-Black,Helvetica,Arial,sans-serif;font-size: 2600%;font-weight: 800;font-style: normal;line-height: 1;position: absolute;top: -10%;left: 4.5%;overflow: hidden;letter-spacing: .461px;opacity: .3;color: #707070;
 }html body main .gallery
 {
-    position: relative;
+    position: relative;overflow: hidden;height: 100%;
+}html body main .gallery .my-gallery
+{float: none;
+    overflow: hidden;
 }html body main .gallery .my-gallery figure
 {
     margin: 0;
@@ -200,7 +605,7 @@
 }.datepicker
 {overflow: hidden;
 
-    width: 400px;margin-top: 10%;margin-left: 49%;background: rgba(1,1,1,0);
+    width: 400px;margin-top: 10%;background: rgba(1,1,1,0);
 }.datepicker .ui-datepicker
 {
     width: 100%;background: rgba(1,1,1,0);
@@ -262,6 +667,409 @@
 }.my-gallery figure:not(:first-child)
 {
     display: none;
+}
+@media only screen and (min-width:1800px)
+{
+    html body header .homeLinkContainer .homeLink
+    {font-size: 250%;
+
+        margin-top: 1.3%;
+    }html body header .nav
+    {right: 19%;
+
+        margin-top: 1%;
+    }html body main .topSection .pageTitleCont
+    {
+        top: 1%;
+    }html body main .topSection .pageTitleCont .pageTitle
+    {
+        font-size: 430%;
+    }html body main .topSection .pageTitleCont .pageTitleDescription
+    {
+        font-size: 156%;
+    }html body main #wrapper .slider-wrapper #slider .nivo-directionNav .nivo-nextNav,
+    html body main #wrapper .slider-wrapper #slider .nivo-directionNav .nivo-prevNav
+    {
+        width: 53px;height: 53px;
+    }html body main #wrapper .slider-wrapper #slider .nivo-directionNav .nivo-prevNav
+    {
+        left: 59px;
+    }html body main #wrapper .slider-wrapper #slider .nivo-directionNav .nivo-nextNav
+    {
+        right: 71px;
+    }html body main .calendarSection .cityName
+    {font-size: 272%;
+
+        padding-top: 8.3%;
+    }html body main .calendarSection .monthCalendar
+    {
+        padding-bottom: 1.6%;
+    }html body main .calendarSection .monthCalendar .datepicker
+    {
+        width: 34em;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-header .ui-datepicker-title
+    {
+        font-size: 190%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar
+    {
+        font-size: 1.3em;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar tbody tr td
+    {
+        font-size: 125%;padding-bottom: 4%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar tbody tr td a.ui-state-highlight
+    {width: 2em;
+        height: 2em;border-radius: 1em;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar tbody tr:first-child td
+    {
+        padding-top: 1.2em;
+    }html body main .calendarSection .monthCalendar .datepicker .datepicker .ui-datepicker-header
+    {
+        margin-bottom: 10%;
+    }html body main .calendarSection .monthCalendar .datepicker .datepicker .ui-datepicker-header .ui-datepicker-next,
+    html body main .calendarSection .monthCalendar .datepicker .datepicker .ui-datepicker-header .ui-datepicker-prev
+    {margin-top: 0;
+        padding: 0 25px;
+    }html body main .calendarSection .monthDescription .monthName
+    {
+        font-size: 190%;
+    }html body main .calendarSection .monthDescription .monthSubName
+    {
+        font-size: 155%;
+    }html body main .calendarSection .monthDescription .monthText
+    {
+        font-size: 160%;margin-top: 1.3%;
+    }html body main .calendarSection .monthDescription .moreInfoCalendar
+    {
+        font-size: 135%;margin-top: 5.8%;padding: .9% 3%;
+    }html body main .contentText .backgroundContent .backgroundLetter
+    {
+        font-size: 3675%;
+    }html body main .contentText .contentColumns .contentSectionText
+    {
+        font-size: 138%;margin-bottom: 4.5%;
+    }html body main .gallery .my-gallery figure a .galleryTitleContainer .galleryTitle
+    {
+        font-size: 285%;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__counter
+    {
+        font-size: 23px;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__button
+    {
+        width: 66px;height: 66px;background-size: 396px 132px;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__button--close
+    {
+        background-position: 0 -66px;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__button--share
+    {
+        background-position: -66px -66px;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__ui .pswp__top-bar .pswp__button--zoom
+    {
+        display: block;background-position: -122px 0;
+    }html body main .gallery .pswp .pswp__scroll-wrap .pswp__caption .pswp__caption__center
+    {
+        font-size: 2em;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption
+    {
+        top: 3em;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle
+    {
+        font-size: 145%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSeparator
+    {
+        margin-top: 20px;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSubtitle
+    {
+        font-size: 115%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleDescription
+    {
+        font-size: 114%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .articleSeparator
+    {
+        margin-top: -11%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .articleTitle
+    {
+        font-size: 145%;margin-top: 15%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links
+    {
+        font-size: 93%;
+    }html body footer .socialBlock
+    {
+        margin-top: 19em;
+    }html body footer .socialBlock .socialTitle
+    {
+        font-size: 250%;margin-bottom: 1.6em;
+    }html body footer .socialBlock .socialBtn .facebookBtn,
+    html body footer .socialBlock .socialBtn .twitterBtn
+    {font-size: 1.3em;
+
+        padding: 1em 3em;
+    }html body footer .copyrightBlock .copyrightText
+    {
+        font-size: 110%;margin-bottom: 2%;
+    }
+}@media only screen and (min-width:1200px) and (max-width:1799px)
+{
+    html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-calendar a
+    {
+        line-height: 30px;
+    }
+}@media only screen and (min-width:900px) and (max-width:1199px)
+{
+    html body header .nav
+    {
+        width: 3.4%;
+    }html body main .calendarSection
+    {
+        padding-bottom: 7%;
+    }html body main .calendarSection .monthDescription .monthText
+    {
+        margin-top: 3.5%;
+    }html body main .calendarSection .monthDescription .moreInfoCalendar
+    {
+        padding: 1.8% 8%;
+    }html body main .gallery .my-gallery
+    {
+        height: 15em;
+    }html body main .gallery .my-gallery figure
+    {
+        height: 100%;
+    }html body main .gallery .my-gallery figure a img
+    {
+        height: 100%;
+    }
+}@media only screen and (max-width:1199px)
+{
+    html body main .articles .grid .leftArticle .effect-zoe img,
+    html body main .articles .grid .rightArticles .effect-zoe img
+    {
+        min-height: 300px;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .description,
+    html body main .articles .grid .leftArticle .effect-zoe figcaption .icon-links,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .description,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links
+    {
+        opacity: 1;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .description br,
+    html body main .articles .grid .leftArticle .effect-zoe figcaption .icon-links br,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .description br,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links br
+    {
+        display: none;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .description a,
+    html body main .articles .grid .leftArticle .effect-zoe figcaption .icon-links a,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .description a,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links a
+    {
+        -webkit-transform: none                                ;transform: none;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleDescription,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleDescription
+    {
+        width: 95%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSubtitle,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleSubtitle
+    {
+        margin-top: 7%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .articleTitle
+    {
+        margin-top: 0;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .articleSeparator
+    {
+        margin-top: 4%;
+    }html body main .articles .grid .rightArticles .effect-zoe figcaption .icon-links
+    {
+        margin-left: 0;
+    }
+}@media only screen and (max-width:899px)
+{
+    html body header .homeLinkContainer .homeLink
+    {
+        font-size: 300%;margin-left: 10%;
+    }html body header .nav
+    {z-index: 101;top: 20px;right: 10%;
+
+        width: 7%;
+    }html body header .nav ul .parent .dropdown li a
+    {
+        font-size: 1.5em;
+    }html body main .topSection .pageTitleCont
+    {
+        margin-top: 20%;
+    }html body main .topSection .pageTitleCont .pageTitle
+    {
+        font-size: 350%;
+    }html body main .topSection .pageTitleCont .pageTitleDescription
+    {
+        font-size: 160%;margin-top: 5%;
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-main-image
+    {
+        min-height: 400px;
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-nextNav,
+    html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-prevNav
+    {
+        width: 44px;height: 44px;
+    }html body main .calendarSection
+    {
+        padding-bottom: 20%;background-size: cover;
+    }html body main .calendarSection .cityName
+    {
+        font-size: 260%;
+    }html body main .calendarSection .monthDescription
+    {
+        display: block;width: 100%;margin-top: 3.5%;margin-left: 0;text-align: center;
+    }html body main .calendarSection .monthDescription .monthName
+    {
+        font-size: 190%;
+    }html body main .calendarSection .monthDescription .monthSubName
+    {
+        font-size: 150%;
+    }html body main .calendarSection .monthDescription .monthText
+    {font-size: 140%;
+
+        width: 80%;margin: 0 auto;
+    }html body main .calendarSection .monthDescription .moreInfoCalendar
+    {
+        font-size: 170%;position: absolute;bottom: 10%;width: 226px;margin-left: -113px;
+    }html body main .calendarSection .monthCalendar
+    {
+        width: 100%;
+    }html body main .calendarSection .monthCalendar .datepicker
+    {position: inherit;display: block;
+
+        width: 70%;width: 100%;margin: 0 auto;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-title
+    {
+        font-size: 170%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-calendar thead tr th
+    {
+        font-size: 100%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-calendar tbody tr td a
+    {
+        font-size: 140%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-calendar tbody tr td a,
+    html body main .calendarSection .monthCalendar .datepicker .ui-datepicker .ui-datepicker-calendar tbody tr td span
+    {
+        padding: .1em;
+    }html body main .gallery .my-gallery
+    {
+        height: 20em;
+    }html body main .gallery .my-gallery figure
+    {
+        height: 100%;
+    }html body main .gallery .my-gallery figure a img
+    {
+        height: 100%;
+    }html body main .gallery .my-gallery figure a .galleryTitleContainer .galleryTitle
+    {
+        font-size: 220%;margin-top: 15%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleTitle
+    {
+        font-size: 130%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleSubtitle,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleSubtitle
+    {
+        font-size: 85%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleDescription,
+    html body main .articles .grid .rightArticles .effect-zoe figcaption .articleDescription
+    {
+        font-size: 80%;
+    }html body footer
+    {
+        min-height: 15em;
+    }html body footer .socialBlock
+    {
+        margin-top: 6.7em;
+    }
+}@media only screen and (max-width:599px)
+{
+    html body header .homeLinkContainer .homeLink
+    {
+        font-size: 200%;
+    }html body header .nav ul .parent .dropdown li a
+    {
+        font-size: .9em;
+    }html body main .topSection .pageTitleCont .pageTitle
+    {
+        font-size: 300%;
+    }html body main .topSection .pageTitleCont .pageTitleDescription
+    {
+        font-size: 130%;margin-top: 15%;
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-nextNav,
+    html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-directionNav .nivo-prevNav
+    {
+        width: 36px;height: 36px;
+    }html body main .topSection #wrapper .slider-wrapper .nivoSlider .nivo-main-image
+    {
+        min-height: 360px;
+    }html body main .calendarSection .cityName
+    {
+        font-size: 230%;padding-top: 70px;
+    }html body main .calendarSection .monthDescription .monthName
+    {
+        font-size: 155%;
+    }html body main .calendarSection .monthDescription .monthSubName
+    {
+        font-size: 125%;
+    }html body main .calendarSection .monthDescription .monthText
+    {
+        font-size: 110%;width: 90%;
+    }html body main .calendarSection .monthDescription .monthText .moreInfoCalendar
+    {
+        font-size: 130%;bottom: 8%;width: 150px;margin-left: -75px;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline
+    {margin-top: 5%;
+        padding: 20px;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-header
+    {margin-bottom: 3%;
+        padding: 0;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-header .ui-datepicker-title
+    {
+        font-size: 140%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar
+    {
+        font-size: 70%;
+    }html body main .calendarSection .monthCalendar .datepicker .ui-datepicker-inline .ui-datepicker-calendar thead tr th
+    {
+        font-size: 130%;
+    }html body main .contentText .backgroundContent .backgroundLetter
+    {
+        font-size: 2220%;top: 0;
+    }html body main .contentText .contentColumns .contentSectionText
+    {font-size: 90%;
+
+        margin-top: 0;text-align: justify;
+    }html body main .gallery .my-gallery figure a .galleryTitleContainer .galleryTitle
+    {
+        font-size: 200%;margin-top: 24%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle,
+    html body main .articles .grid .rightArticle .effect-zoe figcaption .articleTitle
+    {
+        font-size: 120%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle .articleSubtitle,
+    html body main .articles .grid .rightArticle .effect-zoe figcaption .articleTitle .articleSubtitle
+    {
+        font-size: 80%;
+    }html body main .articles .grid .leftArticle .effect-zoe figcaption .articleTitle .articleDescription,
+    html body main .articles .grid .rightArticle .effect-zoe figcaption .articleTitle .articleDescription
+    {
+        font-size: 75%;
+    }html body footer
+    {
+        min-height: 13em;
+    }html body footer .socialBlock
+    {
+        margin-top: 4.7em;
+    }html body footer .socialBlock .socialTitle
+    {
+        font-size: 165%;
+    }html body footer .socialBlock .socialBtn .facebookBtn p,
+    html body footer .socialBlock .socialBtn .twitterBtn p
+    {
+        font-size: 95%;
+    }html body footer .copyrightBlock .copyrightText
+    {
+        font-size: 75%;
+    }
 }
 @font-face
 {

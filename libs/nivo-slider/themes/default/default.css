@@ -47,7 +47,7 @@ Supports Thumbs: true
 	display:block;
 	width:36px;
 	height:36px;
-	background:url(arrows.png) no-repeat;
+	background:url(../../../../img/homePage/top_slider/prev_btn.png) no-repeat;
 	text-indent:-9999px;
 	border:0;
 	opacity: 1;
@@ -55,14 +55,19 @@ Supports Thumbs: true
     -moz-transition: all 200ms ease-in-out;
     -o-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
+    background-size: 100% 100%;
 }
 .theme-default .nivo-directionNav a:hover {
 	background-color:#2b2b32;
 }
 .theme-default:hover .nivo-directionNav a { opacity: 1; }
 .theme-default a.nivo-nextNav {
-	background-position:-36px 0;
 	right:55px;
+    -moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate(180deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg);
 }
 .theme-default a.nivo-prevNav {
 	left:40px;
