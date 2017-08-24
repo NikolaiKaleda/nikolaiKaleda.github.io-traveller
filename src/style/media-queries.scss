@@ -572,7 +572,7 @@
                         }
                         .pageTitleDescription {
                             font-size: 130%;
-                            margin-top: 15%;
+                            margin-top: 25%;
                         }
                     }
                     #wrapper {
@@ -583,8 +583,8 @@
                                     width: 36px;
                                     height: 36px;
                                 }
-                                .nivo-main-image {
-                                    min-height: 360px;
+                                img, .nivo-main-image {
+                                    min-height: 430px;
                                 }
                             }
                         }
